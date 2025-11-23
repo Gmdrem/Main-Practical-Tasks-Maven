@@ -1,4 +1,4 @@
-package com.example;
+package com.example.tests2;
 import com.codeborne.selenide.Configuration; //Настройки Selenide
 import com.example.pages.YaMainPage; //Наш Page Object главной страницы
 import org.junit.jupiter.api.BeforeAll; //Аннотации JUnit 5
@@ -18,3 +18,4 @@ public class YaSearchTest {
                 .waitForRedIcon();                  // Проверка + явное ожидание
     } //С главной страницы перешли на страницу результатов и проверяем наличие значка
 } //Этот класс, который использует созданные Page Object
+

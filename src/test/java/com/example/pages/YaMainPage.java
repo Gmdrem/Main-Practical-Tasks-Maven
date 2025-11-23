@@ -10,6 +10,7 @@ public class YaMainPage {
         return this; //Возвращает сам объект страницы
     }
     public YaSearchResultsPage search(String text) {
+
         searchInput.shouldBe(com.codeborne.selenide.Condition.visible) // Явное ожидание
                 .setValue(text) //Ввод строки
                 .pressEnter(); //Имитация нажатия Enter
