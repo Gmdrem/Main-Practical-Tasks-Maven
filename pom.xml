@@ -57,6 +57,12 @@
             <version>1.16.0</version>
         </dependency>
 
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.14</version>
+        </dependency>
+
         <!-- RestAssured (пример API) -->
         <dependency>
             <groupId>io.rest-assured</groupId>
