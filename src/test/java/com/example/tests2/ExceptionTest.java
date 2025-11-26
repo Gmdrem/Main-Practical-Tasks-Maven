@@ -1,4 +1,4 @@
-package com.example;
+package com.example.tests2;
 import org.junit.jupiter.api.Assertions; //Класс из библиотеки JUnit 5
 import org.junit.jupiter.api.Test; //Аннотация, которая говорит, что метод нужно запускать как тест
 
